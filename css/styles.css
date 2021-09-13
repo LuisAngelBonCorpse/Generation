@@ -1,0 +1,26 @@
+/* * {background-color: lightcoral;} */
+
+/* #Resaltame{
+  background-color: lightblue !important;
+  color: darkred !important;
+} */
+
+h1 {
+  color: #ffaa22;
+  text-align: center;
+}
+.bBlack {
+  background-color: #000000;
+  color: aquamarine;
+}
+.bGreen {
+  background-color: #00ff00;
+  color: fff;
+}
+.pLarge {
+  font-size: 32px;
+}
+#Resaltame {
+  background-color: pink;
+  color: yellow;
+}
