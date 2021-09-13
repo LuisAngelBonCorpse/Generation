@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Imagenes y tablas</title>
+  </head>
+  <body>
+    <h1>Imagenes y tablas.</h1>
+    <h3>Imagenes</h3>
+    <!-- src es para especificar la ruta de la imagen o la URL si es de otro sitio, alt es una descripcion para accesibilidad width y heigth son la altura y anchura de las imagenes, es recomendable solo poner una ya que asi la otra se calcula auto y la imagen no se deforma -->
+    <img
+      src="https://cdn.forbes.com.mx/2021/04/fotos-de-la-tierra-Nasa.png"
+      alt="La tierra,desde satelite de la NASA"
+      width="500"
+    />
+    <img
+      src="pentakill.jpg"
+      alt="Portada de la banda pentakill parte 3."
+      title="Pentakill, parte III"
+      height="300"
+    />
+
+    <h3>Tablas</h3>
+    <br />
+    <table border="2">
+      <tr>
+        <th>Horario</th>
+        <th>Materia</th>
+      </tr>
+      <tr>
+        <td>9:00 - 10:00</td>
+        <td>Programación</td>
+      </tr>
+      <tr>
+        <td>10:00 - 11:00</td>
+        <td>Algoritmos</td>
+      </tr>
+      <tr>
+        <td>11:00 - 13:00</td>
+        <td>Programación orientada a objetos</td>
+      </tr>
+    </table>
+    <!-- Ejercicio, crear horario propio de lunes a viernes, con 5 rows -->
+    <hr />
+    <h4>Mi horario de clases.</h4>
+    <table border="1">
+      <tr>
+        <th>Horario</th>
+        <th>Lunes</th>
+        <th>Martes</th>
+        <th>Miercoles</th>
+        <th>Jueves</th>
+        <th>Viernes</th>
+      </tr>
+      <tr>
+        <th>07:00 - 09:00</th>
+        <td>Mate</td>
+        <td>Fisica</td>
+        <td rowspan="2"><center>Mate</center></td>
+        <td>Español</td>
+        <td>Ingles</td>
+      </tr>
+      <tr>
+        <th>09:00 - 11:00</th>
+        <td>Ingles</td>
+        <td>Edu Fisica</td>
+        <td>Historia</td>
+        <td>Arte</td>
+      </tr>
+      <tr>
+        <th>11:00 - 11:30</th>
+        <th colspan="5"><em>R E C E S O</em></th>
+      </tr>
+      <tr>
+        <th>11:30 - 13:30</th>
+        <td>Arte</td>
+        <td>Historia</td>
+        <td>Edu Fisica</td>
+        <td>Fisica</td>
+        <td rowspan="2"><center>Taller</center></td>
+      </tr>
+      <tr>
+        <th>13:30 - 15:00</th>
+        <td>Español</td>
+        <td>Mate</td>
+        <td>Español</td>
+        <td>Ingles</td>
+      </tr>
+    </table>
+    <!-- Colspan une horizontalmente rowspan une verticalmente -->
+    <hr />
+    <!-- Ejercicio llegar a la imagen -->
+    <h4>Ejercicio: Llegando a la imagen</h4>
+    <img
+      src="Combinando-columnas-en-tabla-HTML-colspan-atributo.jpg"
+      width="500"
+    />
+    <br />
+    <table border="1">
+      <tr>
+        <td>Rojo</td>
+        <td colspan="2">Verde</td>
+      </tr>
+      <tr>
+        <td>Café</td>
+        <td>Marrón</td>
+        <td>Tinto</td>
+      </tr>
+      <tr>
+        <td colspan="3">Naranja</td>
+      </tr>
+      <tr>
+        <td colspan="2">Blanco</td>
+        <td>Negro</td>
+      </tr>
+    </table>
+  </body>
+</html>

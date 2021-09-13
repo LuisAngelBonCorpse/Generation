@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Formularios</title>
+  </head>
+  <body>
+    <h1>Formularios.</h1>
+    <!-- action nos menciona la accion que se realizara (a donde van los datos que se ingresan)-->
+    <!-- method hace referencia al metodo HTTP usado para enviar los datos, por defecto es GET -->
+    <form>
+      <p>
+        <label for="name">Nombre: </label>
+        <input type="text" name="name" />
+      </p>
+      <p>
+        <label for="email">Correo electrónico: </label>
+        <input type="email" name="email" />
+      </p>
+      <p>
+        <label for="password">Contraseña: </label>
+        <input type="password" name="password" />
+      </p>
+      <p>
+        <label for="numTel">Telefono: </label>
+        <input type="number" name="numTel" />
+      </p>
+      <p>
+         <label for="texto">Publicación: </label>
+         <textarea name="texto" cols="50" rows="5"></textarea>
+      </p>
+      <p>
+         <label for="color">Color favorito: </label>
+         <select name="color">
+            <option value="1">Rojo</option>
+            <option value="2">Verde</option>
+            <option value="3">Azul</option>
+         </select>
+      </p>
+      <p>
+         <label for="edad"><h4>Rango de edad.</h4></label>
+         <label for="rango1">De 18 a 22</label>
+         <input type="radio" name="edad" id="rango1"/>
+         <label for="rango2">De 23 a 30</label>
+         <input type="radio" name="edad" id="rango2"/>
+         <label for="rango3">De 31 a 60</label>
+         <input type="radio" name="edad" id="rango3"/>
+      </p>
+      <p>
+         <!-- <input type="submit" value="Guardar datos"> -->
+         <!-- Envia los datos dependiendo el Metodo seleccionado GET muestra los datos en la URL POST los oculta -->
+         <button type="submit">Guardar datos</button>
+      </p>
+    </form>
+  </body>
+</html>
