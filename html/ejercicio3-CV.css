@@ -1,0 +1,33 @@
+body {
+  background: #eee;
+  font-family: Arial, sans-serif;
+}
+
+p {
+  background: #ddd;
+}
+
+h4 {
+  background: #ccc;
+  color: rgb(100, 0, 100);
+}
+
+h3 {
+  background: #bbb;
+  color: #f00;
+}
+strong {
+  color: #00f;
+  text-decoration: underline;
+}
+span {
+  color: rgb(0, 136, 45);
+}
+h2 {
+  text-align: center;
+}
+
+footer p {
+  background: #fff;
+  text-align: end;
+}

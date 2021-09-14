@@ -1,0 +1,44 @@
+body{
+  background-color: rgb(194, 194, 255);
+  font-family: 'Contra';
+}
+p{
+  text-align: justify;
+  text-indent: 40px;
+  font-size: medium;
+}
+header{
+  text-align: end;
+}
+
+h1{
+  font-family: 'Comic Sans MC';
+  color: #f00;
+}
+
+h1 span{
+  color: #000;
+}
+h3{
+  font-family: 'Notable';
+  font-size: medium;
+}
+h3 span{
+  font-size: x-large;
+}
+.naranja, strong{
+  color: #F90;
+}
+strong{
+  font-family: 'Comic Sans MC';
+}
+.verde{
+  background: #FFF;
+  color: #090;
+  text-emphasis: initial ;
+}
+
+footer p{
+  text-align: center;
+  font-size: small;
+}

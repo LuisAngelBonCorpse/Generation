@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Ejercicio 2</title>
+  </head>
+  <body>
+    <center>
+      <h1>Formulario de ingreso.</h1>
+    </center>
+    <fieldset>
+      <form>
+        <center>
+          <div>
+            <label for="name">Nombre completo: </label
+            ><input
+              type="text"
+              id="name"
+              placeholder="ejemplo: Juan Antonio Perez López"
+              size="26"
+            />
+          </div>
+          <br />
+          <div>
+            <label for="tel">Telefono: </label
+            ><input
+              type="tel"
+              name=""
+              id="tel"
+              size="14"
+              placeholder="ejemplo: 5512345678"
+            />
+          </div>
+          <br />
+          <div>
+            <label for="color">Color de pulsera identificativa: </label
+            ><input type="color" name="" id="color" />
+          </div>
+          <br />
+          <div>
+            <label for="alergias">Tiene alergias: </label
+            ><input type="checkbox" name="" id="alergias" />
+          </div>
+          <br />
+          <div>
+            <label for="alergia"> Cual: </label>
+            <select name="alergia">
+              <option value="Polen">Polen</option>
+              <option value="Mani">Mani</option>
+              <option value="Nuez">Nuez</option>
+              <option value="Pelo">Pelo</option>
+              <option value="Otro">Otro</option>
+            </select>
+          </div>
+          <br />
+          <div>
+            <label for="fecha">Fecha y hora de ingreso:</label>
+            <input type="datetime-local" name="" id="fecha" />
+          </div>
+          <br />
+          <div>
+            <label for="edad">Edad</label>
+            <input
+              type="number"
+              name=""
+              id="edad"
+              size="5"
+              min="1"
+              placeholder="ejemplo: 20"
+            />
+          </div>
+          <hr />
+          <div>
+            <input type="submit" value="Guardar." />
+          </div>
+        </center>
+      </form>
+    </fieldset>
+  </body>
+</html>
