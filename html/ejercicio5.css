@@ -1,0 +1,77 @@
+body{
+  background: #DDD;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+h1, #sub{
+  font-family: 'Rye', cursive;
+  text-align: center;
+}
+
+h1{
+  font-size: 60px;
+}
+
+header center span{
+  padding: 10px;
+  background-color: lightgray;
+  border: solid gray 1px;
+  border-radius: 10px;
+}
+
+header center{
+  padding: 20px;
+  background-color: azure;
+  width: 90%;
+  margin: 0 auto;
+  border: solid azure 1px;
+  border-radius: 15px;
+}
+
+table{
+  margin: 0 auto;
+}
+
+fieldset, div, footer{
+  margin: 0 3%;
+}
+
+div div{
+  margin: 0 4%;
+}
+
+img{
+  border-radius: 15px;
+}
+
+table tr td, table tr th{
+  padding: 10px;
+}
+
+form div{
+  width: 600px;
+  margin: 0 auto;
+}
+
+label{
+  text-align: end;
+}
+
+input{
+  text-align: center;
+  width: 82%;
+}
+#enviar{
+  background-color: #111;
+  color: #DDD;
+  height: 40px;
+  font-size: 30px;
+  letter-spacing: 10px;
+  border-radius: 8px;
+}
+
+footer{
+  background: #222;
+  color: aliceblue;
+  padding: 5px;
+}

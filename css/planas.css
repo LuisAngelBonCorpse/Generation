@@ -1,0 +1,20 @@
+h1{
+  font-size: 60px;
+}
+
+.titulo2{
+  color: tan;
+}
+
+.titulo3{
+  color: purple;
+}
+
+.titulo4{
+  background: -webkit-linear-gradient(deeppink, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; /* obtenido de https://cssgradient.io/ */
+}
+.titulo5{
+  color: #9C0001;
+}

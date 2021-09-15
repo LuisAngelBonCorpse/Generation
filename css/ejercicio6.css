@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 150px;
+  background: #ccc;
+}
+.titulo{
+  text-align: center;
+  letter-spacing: 15px;
+  font-size: 40px;
+}
+h2{
+  background: #888;
+  color: #FFF;
+}
+.rojo{
+  color: #f00;
+}
+strong{
+  background: #FFF;
+}
+.texto{
+  width: 900px;
+  margin: 0 auto;
+}
+p{
+  text-align: justify;
+  text-indent: 15px;
+}
+img{
+  float: left;
+}
+#logoCSS3{
+  padding: 0 30px;
+}
+
+.clear-fix{
+  clear: both;
+  flex: none;
+}
