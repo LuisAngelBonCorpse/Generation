@@ -1,0 +1,37 @@
+body{
+  background: #ddd;
+}
+.contenedor{
+  width: 85%;
+  min-height: 500px;
+  margin: 0 auto;
+  border: solid #000 10px;
+  background: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.caja{
+  width: 200px;
+  height: 200px;
+  font-size: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.caja1{
+  border: solid #050 5px;
+}
+.caja2{
+  border: solid #500 5px;
+  align-self: flex-start;
+}
+.caja3{
+  border: solid #005 5px;
+  align-self: flex-end;
+}
+.caja4{
+  border: solid #555 5px;
+}
+
