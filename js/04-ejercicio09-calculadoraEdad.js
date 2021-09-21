@@ -12,3 +12,4 @@ if (residuo === 0) {
 } else{
   document.write(`<p>Naciste en un año impar.</p>`);
 }
+  
